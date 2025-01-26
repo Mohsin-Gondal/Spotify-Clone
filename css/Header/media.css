@@ -1,0 +1,23 @@
+@media screen and (max-width:900px){
+    .home-icon{
+        display: none;
+    }
+    .header-center{
+        width: 70%;
+        /* display: none; */
+    }
+    .appealing-buttons{
+        display: none;
+    }
+}
+@media screen and (max-width:500px){
+    .header-center{
+        /* width: 50%; */
+    }
+    .search-bar svg:last-child{
+        display: none;
+    }
+    .search-bar div{
+        display: none;
+    }
+}

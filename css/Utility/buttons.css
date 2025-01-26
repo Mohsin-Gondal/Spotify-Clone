@@ -1,0 +1,55 @@
+.btn {
+    background-color: transparent;
+
+    padding: 8px 15px;
+
+    border-radius: 100px;
+    border: none;
+
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 800;
+    color: white;
+
+    display: flex;
+    align-items: center;
+
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.btn-bold-white {
+    background-color: white;
+    color: black;
+}
+
+.scale-inc-hover:hover {
+    transform: scale(1.05);
+}
+
+.btn-no-outline-blank {
+    background-color: transparent;
+
+    svg {
+        height: 20px;
+    }
+}
+
+.btn-single-svg {
+    svg {
+        height: 20px;
+    }
+}
+
+.btn-account {
+    padding: 8px;
+
+    background-color: var(--dark-gray);
+
+}
+
+.btn-account img {
+    border-radius: 50%;
+    height: 35px;
+    width: auto;
+
+}

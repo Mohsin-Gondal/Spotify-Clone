@@ -1,0 +1,11 @@
+
+/* CSS Variables */
+:root {
+    --primary-color: #1db954;
+    --dark-gray: #212121;
+    --dark: #121212;
+    --light-gray: rgb(31,31,31);
+    --light-gray-2: rgb(60, 60, 60);
+    --secondary-color: #535353;
+    --secondary-color-plus: #b3b3b3;
+}
