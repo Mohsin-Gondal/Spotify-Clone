@@ -1,0 +1,47 @@
+@media screen and (max-width:1085px) {
+    footer {
+        flex-direction: column;
+        height: fit-content;
+    }
+    
+    .footer-left {
+        padding: 20px 0px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .song-played-info {
+        align-items: center;
+    }
+    
+    .footer-right {
+        display: none;
+    }
+    
+    .footer-center-down {
+        margin: auto;
+    }
+    
+    .footer-center {
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:485px) {
+    
+    .footer-left {
+        img {
+            width: 50%;
+            height: auto;
+        }
+    }
+
+}
+@media screen and (max-width:550px) {
+    .footer-center-down {
+        width: 100%;
+    }
+
+    footer .footer-center .play-bar {
+        width: 100%;
+    }
+}
