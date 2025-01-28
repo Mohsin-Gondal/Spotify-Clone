@@ -10,10 +10,14 @@ main {
 
     height: calc(100% - 138px);
     box-sizing: border-box;
+
+    display: flex;
+    /* align-items: center; */
+    gap: 10px;
 }
 
 .library {
-    width: 400px;
+    width: 570px;
     height: 100%;
 
     background-color: var(--dark-gray);
