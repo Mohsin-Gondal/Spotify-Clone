@@ -1,0 +1,159 @@
+main {
+    flex-grow: 1;
+    /* background-color: var(--light-gray); */
+
+    padding: 5px 1em 5px;
+
+    svg {
+        filter: none;
+    }
+
+    height: calc(100% - 138px);
+    box-sizing: border-box;
+}
+
+.library {
+    width: 400px;
+    height: 100%;
+
+    background-color: var(--dark-gray);
+
+    border-radius: 8px;
+    overflow: hidden;
+
+    svg{
+        filter: none;
+    }
+}
+
+.library-start-upper {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px;
+    padding: 10px 20px 10px;
+
+    height: 100%;
+
+    svg {
+        width: 23px;
+    }
+
+}
+
+.library-start-upper>button {
+    background-color: transparent;
+
+    border: none;
+
+    color: rgb(179, 179, 179);
+    fill: rgb(179, 179, 179);
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 5px 10px;
+
+
+    p {
+        font-size: 16px;
+        font-family: "Roboto", serif;
+        font-weight: 800;
+
+
+    }
+
+    transition: 300ms;
+    cursor: pointer;
+}
+.library-start-upper .right{
+
+}
+.library-start-upper>button:hover {
+    color: white;
+    fill: white;
+}
+.library-start-lower .library-btn-2:hover{
+    background-color: rgba(255, 255, 255, 0.189);
+}
+.library-start-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding:15px 10px 0px;
+
+    svg{
+        width: 16px;
+    }
+    p{
+        font-weight: 500;
+    }
+}
+.libraries {
+    max-height: 100%;
+    padding: 10px 10px;
+    overflow-y: auto;
+}
+.song-playlist {
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 5px;
+    gap: 10px;
+
+    img {
+        width: 60px;
+        border-radius: 5px;
+    }
+    div > p{
+        color: white;
+        padding: 2px 5px;
+    }
+    p:first-child {
+        font-size: 15.5px;
+        font-weight: 600;
+    }
+
+    p:last-child {
+        color: rgb(179, 179, 179);
+        font-size: 12.5px;
+        font-weight: 500;
+    }
+
+    cursor: pointer;
+    transition: 300ms;
+}
+.song-playlist:hover{
+    background-color: rgb(48, 48, 48);
+}
+
+.library-start-upper .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    svg {
+        width: 17px;
+        fill: rgb(179, 179, 179);
+    }
+
+    svg:hover {
+        fill: white;
+    }
+}
+
+.library-start-lower {
+    padding: 0px 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+@media screen and (max-width:800px) {
+    .library{
+        display: none;
+    }
+}
