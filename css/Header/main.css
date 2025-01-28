@@ -92,7 +92,7 @@ svg {
     background-color: transparent;
     border: none;
 
-    font-size:calc(14px + 0.3vw);
+    font-size:calc(12px + 0.3vw);
     font-weight: 600;
 
     caret-color: white;
@@ -167,7 +167,3 @@ svg {
 
 
 
-main {
-    background-color: var(--secondary-color);
-    flex-grow: 1;
-}

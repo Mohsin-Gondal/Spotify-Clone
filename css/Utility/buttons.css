@@ -35,8 +35,22 @@
 }
 
 .btn-single-svg {
+    padding: 0px 5px 0px;
     svg {
         height: 20px;
+    }
+}
+.btn-single-svg-footer{
+    padding: 0px 2px 0px;
+    svg{
+        height: 17px;
+        fill: var(--dark-gray);
+
+        transition: 300ms;
+        cursor: pointer;
+    }
+    svg:hover{
+        fill: black;
     }
 }
 
