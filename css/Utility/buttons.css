@@ -28,10 +28,15 @@
 
 .btn-no-outline-blank {
     background-color: transparent;
-
     svg {
         height: 20px;
     }
+}
+.follow-btn{
+    border: 0.5px solid rgb(177, 177, 177);
+}
+.follow-btn:hover{
+    border: 1px solid rgb(226, 226, 226);
 }
 
 .btn-single-svg {

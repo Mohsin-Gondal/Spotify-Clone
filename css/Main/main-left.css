@@ -135,6 +135,8 @@ main {
 
     cursor: pointer;
     transition: 300ms;
+
+    width: 100%;
 }
 .song-playlist:hover{
     background-color: rgb(48, 48, 48);

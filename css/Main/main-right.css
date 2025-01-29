@@ -1,0 +1,144 @@
+.side-info-music {
+    background-color: rgb(18, 18, 18);
+    padding: 15px 15px;
+
+    width: 700px;
+    color: white;
+
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    overflow-y: auto;
+    svg {
+        filter: none;
+        fill: white;
+    }
+
+    box-sizing: border-box;
+}
+.side-info-music::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+
+.side-info-music>img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+
+}
+
+.music-info-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+
+    p:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .buttons {
+        display: flex;
+    }
+
+    padding-bottom: 10px;
+}
+
+.music-info-title {
+    width: 100%;
+
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+
+    p:first-child {
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+    p:last-child {
+        font-weight: 600;
+        color: rgb(179, 179, 179);
+    }
+
+    p:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    margin-bottom: 15px;
+}
+
+.card {
+    background-color: rgb(31, 31, 31);
+    padding: 15px;
+    width: 100%;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.credits-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.credits-card-header {
+    display: flex;
+    justify-content: space-between;
+
+    p {
+        font-weight: 800;
+        cursor: pointer;
+        transition: 300ms;
+    }
+
+    p:last-child {
+        color: rgb(179, 179, 179);
+    }
+
+    p:last-child:hover {
+        color: rgb(230, 230, 230);
+        text-decoration: underline;
+    }
+
+    padding-bottom: 20px;
+}
+
+.credits-card-lower {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.artist {
+    p {
+        font-weight: 600;
+        cursor: pointer;
+        
+    }
+    p:hover{
+        text-decoration: underline;
+    }
+
+    p:first-child {}
+
+    p:last-child {
+        color: rgb(179, 179, 179);
+        font-weight: 500;
+        font-size: 14px;
+    }
+    padding-bottom: 20px;
+}
+@media screen and (max-width:1085px) {
+    .side-info-music{
+        display: none;
+    }
+    
+}
