@@ -85,9 +85,8 @@
 .library-btn-2{
     background-color: rgb(255, 255, 255,0.1);
 }
-.library-start-lower .library-btn-2:hover{
-    background-color: rgba(255, 255, 255, 0.189);
-}
+
+
 .btn-account {
     padding: 8px;
 

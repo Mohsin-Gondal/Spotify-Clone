@@ -1,9 +1,11 @@
 @media screen and (max-width:1085px) {
     footer {
         flex-direction: column;
-        height: fit-content;
+        height: 100%;
     }
-    
+    main{
+        height: calc(100% - 309px);
+    }
     .footer-left {
         padding: 20px 0px;
         flex-direction: column;
@@ -27,7 +29,10 @@
     
 }
 @media screen and (max-width:485px) {
-    
+    body main{
+        height: calc(100% - 480px);
+        padding: 3px;
+    }
     .footer-left {
         img {
             width: 50%;
